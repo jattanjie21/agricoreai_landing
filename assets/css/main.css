@@ -3019,6 +3019,16 @@ ol {
   }
 }
 
+@media (max-width: 767px) {
+  .overview-cards > [class*="col-"] {
+    margin-bottom: 25px;
+  }
+  
+  .overview-cards > [class*="col-"]:last-child {
+    margin-bottom: 0;
+  }
+}
+
 /*======================================
 	Modern Impact Section CSS
 ========================================*/
@@ -3204,6 +3214,16 @@ ol {
 @media (max-width: 991px) {
   .impact-card {
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .impact-grid > [class*="col-"] {
+    margin-bottom: 25px;
+  }
+  
+  .impact-grid > [class*="col-"]:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -3480,6 +3500,16 @@ ol {
   
   .contact-form-wrapper {
     padding: 40px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-info-grid > [class*="col-"] {
+    margin-bottom: 25px;
+  }
+  
+  .contact-info-grid > [class*="col-"]:last-child {
+    margin-bottom: 0;
   }
 }
 
